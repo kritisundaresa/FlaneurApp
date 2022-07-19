@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C1F898628871F0B009F4976 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1F898528871F0B009F4976 /* AppDelegate.swift */; };
+		2C1F898828871F0B009F4976 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1F898728871F0B009F4976 /* SceneDelegate.swift */; };
+		2C1F898A28871F0B009F4976 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1F898928871F0B009F4976 /* ViewController.swift */; };
+		2C1F898D28871F0B009F4976 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C1F898B28871F0B009F4976 /* Main.storyboard */; };
+		2C1F899028871F0B009F4976 /* FlaneurApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2C1F898E28871F0B009F4976 /* FlaneurApp.xcdatamodeld */; };
+		2C1F899228871F0E009F4976 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C1F899128871F0E009F4976 /* Assets.xcassets */; };
+		2C1F899528871F0E009F4976 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C1F899328871F0E009F4976 /* LaunchScreen.storyboard */; };
+		2C1F89A028871F0E009F4976 /* FlaneurAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1F899F28871F0E009F4976 /* FlaneurAppTests.swift */; };
+		2C1F89AA28871F0E009F4976 /* FlaneurAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1F89A928871F0E009F4976 /* FlaneurAppUITests.swift */; };
+		2C1F89AC28871F0E009F4976 /* FlaneurAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1F89AB28871F0E009F4976 /* FlaneurAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C1F899C28871F0E009F4976 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C1F897A28871F0B009F4976 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C1F898128871F0B009F4976;
+			remoteInfo = FlaneurApp;
+		};
+		2C1F89A628871F0E009F4976 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C1F897A28871F0B009F4976 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C1F898128871F0B009F4976;
+			remoteInfo = FlaneurApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C1F898228871F0B009F4976 /* FlaneurApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlaneurApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C1F898528871F0B009F4976 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2C1F898728871F0B009F4976 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2C1F898928871F0B009F4976 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2C1F898C28871F0B009F4976 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C1F898F28871F0B009F4976 /* FlaneurApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FlaneurApp.xcdatamodel; sourceTree = "<group>"; };
+		2C1F899128871F0E009F4976 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C1F899428871F0E009F4976 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2C1F899628871F0E009F4976 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C1F899B28871F0E009F4976 /* FlaneurAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlaneurAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C1F899F28871F0E009F4976 /* FlaneurAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlaneurAppTests.swift; sourceTree = "<group>"; };
+		2C1F89A528871F0E009F4976 /* FlaneurAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlaneurAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C1F89A928871F0E009F4976 /* FlaneurAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlaneurAppUITests.swift; sourceTree = "<group>"; };
+		2C1F89AB28871F0E009F4976 /* FlaneurAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlaneurAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C1F897F28871F0B009F4976 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C1F899828871F0E009F4976 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C1F89A228871F0E009F4976 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C1F897928871F0B009F4976 = {
+			isa = PBXGroup;
+			children = (
+				2C1F898428871F0B009F4976 /* FlaneurApp */,
+				2C1F899E28871F0E009F4976 /* FlaneurAppTests */,
+				2C1F89A828871F0E009F4976 /* FlaneurAppUITests */,
+				2C1F898328871F0B009F4976 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C1F898328871F0B009F4976 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C1F898228871F0B009F4976 /* FlaneurApp.app */,
+				2C1F899B28871F0E009F4976 /* FlaneurAppTests.xctest */,
+				2C1F89A528871F0E009F4976 /* FlaneurAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C1F898428871F0B009F4976 /* FlaneurApp */ = {
+			isa = PBXGroup;
+			children = (
+				2C1F898528871F0B009F4976 /* AppDelegate.swift */,
+				2C1F898728871F0B009F4976 /* SceneDelegate.swift */,
+				2C1F898928871F0B009F4976 /* ViewController.swift */,
+				2C1F898B28871F0B009F4976 /* Main.storyboard */,
+				2C1F899128871F0E009F4976 /* Assets.xcassets */,
+				2C1F899328871F0E009F4976 /* LaunchScreen.storyboard */,
+				2C1F899628871F0E009F4976 /* Info.plist */,
+				2C1F898E28871F0B009F4976 /* FlaneurApp.xcdatamodeld */,
+			);
+			path = FlaneurApp;
+			sourceTree = "<group>";
+		};
+		2C1F899E28871F0E009F4976 /* FlaneurAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				2C1F899F28871F0E009F4976 /* FlaneurAppTests.swift */,
+			);
+			path = FlaneurAppTests;
+			sourceTree = "<group>";
+		};
+		2C1F89A828871F0E009F4976 /* FlaneurAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2C1F89A928871F0E009F4976 /* FlaneurAppUITests.swift */,
+				2C1F89AB28871F0E009F4976 /* FlaneurAppUITestsLaunchTests.swift */,
+			);
+			path = FlaneurAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C1F898128871F0B009F4976 /* FlaneurApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C1F89AF28871F0E009F4976 /* Build configuration list for PBXNativeTarget "FlaneurApp" */;
+			buildPhases = (
+				2C1F897E28871F0B009F4976 /* Sources */,
+				2C1F897F28871F0B009F4976 /* Frameworks */,
+				2C1F898028871F0B009F4976 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlaneurApp;
+			productName = FlaneurApp;
+			productReference = 2C1F898228871F0B009F4976 /* FlaneurApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C1F899A28871F0E009F4976 /* FlaneurAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C1F89B228871F0E009F4976 /* Build configuration list for PBXNativeTarget "FlaneurAppTests" */;
+			buildPhases = (
+				2C1F899728871F0E009F4976 /* Sources */,
+				2C1F899828871F0E009F4976 /* Frameworks */,
+				2C1F899928871F0E009F4976 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C1F899D28871F0E009F4976 /* PBXTargetDependency */,
+			);
+			name = FlaneurAppTests;
+			productName = FlaneurAppTests;
+			productReference = 2C1F899B28871F0E009F4976 /* FlaneurAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2C1F89A428871F0E009F4976 /* FlaneurAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C1F89B528871F0E009F4976 /* Build configuration list for PBXNativeTarget "FlaneurAppUITests" */;
+			buildPhases = (
+				2C1F89A128871F0E009F4976 /* Sources */,
+				2C1F89A228871F0E009F4976 /* Frameworks */,
+				2C1F89A328871F0E009F4976 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C1F89A728871F0E009F4976 /* PBXTargetDependency */,
+			);
+			name = FlaneurAppUITests;
+			productName = FlaneurAppUITests;
+			productReference = 2C1F89A528871F0E009F4976 /* FlaneurAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C1F897A28871F0B009F4976 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					2C1F898128871F0B009F4976 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					2C1F899A28871F0E009F4976 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 2C1F898128871F0B009F4976;
+					};
+					2C1F89A428871F0E009F4976 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 2C1F898128871F0B009F4976;
+					};
+				};
+			};
+			buildConfigurationList = 2C1F897D28871F0B009F4976 /* Build configuration list for PBXProject "FlaneurApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C1F897928871F0B009F4976;
+			productRefGroup = 2C1F898328871F0B009F4976 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C1F898128871F0B009F4976 /* FlaneurApp */,
+				2C1F899A28871F0E009F4976 /* FlaneurAppTests */,
+				2C1F89A428871F0E009F4976 /* FlaneurAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C1F898028871F0B009F4976 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C1F899528871F0E009F4976 /* LaunchScreen.storyboard in Resources */,
+				2C1F899228871F0E009F4976 /* Assets.xcassets in Resources */,
+				2C1F898D28871F0B009F4976 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C1F899928871F0E009F4976 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C1F89A328871F0E009F4976 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C1F897E28871F0B009F4976 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C1F898A28871F0B009F4976 /* ViewController.swift in Sources */,
+				2C1F899028871F0B009F4976 /* FlaneurApp.xcdatamodeld in Sources */,
+				2C1F898628871F0B009F4976 /* AppDelegate.swift in Sources */,
+				2C1F898828871F0B009F4976 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C1F899728871F0E009F4976 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C1F89A028871F0E009F4976 /* FlaneurAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C1F89A128871F0E009F4976 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C1F89AC28871F0E009F4976 /* FlaneurAppUITestsLaunchTests.swift in Sources */,
+				2C1F89AA28871F0E009F4976 /* FlaneurAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C1F899D28871F0E009F4976 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C1F898128871F0B009F4976 /* FlaneurApp */;
+			targetProxy = 2C1F899C28871F0E009F4976 /* PBXContainerItemProxy */;
+		};
+		2C1F89A728871F0E009F4976 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C1F898128871F0B009F4976 /* FlaneurApp */;
+			targetProxy = 2C1F89A628871F0E009F4976 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2C1F898B28871F0B009F4976 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C1F898C28871F0B009F4976 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2C1F899328871F0E009F4976 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C1F899428871F0E009F4976 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C1F89AD28871F0E009F4976 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2C1F89AE28871F0E009F4976 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C1F89B028871F0E009F4976 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FlaneurApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.kwk.FlaneurApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C1F89B128871F0E009F4976 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FlaneurApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.kwk.FlaneurApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2C1F89B328871F0E009F4976 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.kwk.FlaneurAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlaneurApp.app/FlaneurApp";
+			};
+			name = Debug;
+		};
+		2C1F89B428871F0E009F4976 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.kwk.FlaneurAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlaneurApp.app/FlaneurApp";
+			};
+			name = Release;
+		};
+		2C1F89B628871F0E009F4976 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.kwk.FlaneurAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlaneurApp;
+			};
+			name = Debug;
+		};
+		2C1F89B728871F0E009F4976 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.kwk.FlaneurAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlaneurApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C1F897D28871F0B009F4976 /* Build configuration list for PBXProject "FlaneurApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C1F89AD28871F0E009F4976 /* Debug */,
+				2C1F89AE28871F0E009F4976 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C1F89AF28871F0E009F4976 /* Build configuration list for PBXNativeTarget "FlaneurApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C1F89B028871F0E009F4976 /* Debug */,
+				2C1F89B128871F0E009F4976 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C1F89B228871F0E009F4976 /* Build configuration list for PBXNativeTarget "FlaneurAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C1F89B328871F0E009F4976 /* Debug */,
+				2C1F89B428871F0E009F4976 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C1F89B528871F0E009F4976 /* Build configuration list for PBXNativeTarget "FlaneurAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C1F89B628871F0E009F4976 /* Debug */,
+				2C1F89B728871F0E009F4976 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2C1F898E28871F0B009F4976 /* FlaneurApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2C1F898F28871F0B009F4976 /* FlaneurApp.xcdatamodel */,
+			);
+			currentVersion = 2C1F898F28871F0B009F4976 /* FlaneurApp.xcdatamodel */;
+			path = FlaneurApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2C1F897A28871F0B009F4976 /* Project object */;
+}
