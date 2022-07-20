@@ -442,6 +442,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="(breakfast places)" lineBreakMode="wordWrap" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Wo-Ge-5aW">
                                 <rect key="frame" x="20" y="366" width="181" height="111"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -459,7 +460,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hinatomaru - $                            Manten Sushi - $$                       Ginza Aoki - $$$" lineBreakMode="wordWrap" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CJQ-yB-aYR">
-                                <rect key="frame" x="20" y="498" width="285" height="72"/>
+                                <rect key="frame" x="20" y="498" width="242" height="72"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -573,7 +574,7 @@ Cathédrale Notre-Dame - free
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="cFd-7v-pKk"/>
+        <segue reference="Kts-UN-HlS"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Artboard 2@4x-8" width="4320" height="4320"/>
