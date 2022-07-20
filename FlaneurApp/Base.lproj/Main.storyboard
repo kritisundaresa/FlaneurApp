@@ -17,65 +17,75 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Artboard 2@4x-8" translatesAutoresizingMaskIntoConstraints="NO" id="fhQ-qI-WuJ">
-                                <rect key="frame" x="-29" y="22" width="473" height="186"/>
+                                <rect key="frame" x="-49" y="7" width="513" height="265"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UJw-7x-MJQ">
-                                <rect key="frame" x="116" y="295" width="183" height="35"/>
+                                <rect key="frame" x="107" y="304" width="195" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.56498509649999995" green="0.1570743322" blue="0.14887130260000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Tokyo"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Tokyo" cornerStyle="capsule">
+                                    <fontDescription key="titleFontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="20"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="I3j-2f-A9z" kind="show" id="pjo-XV-PnE"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tos-Yv-8WL">
-                                <rect key="frame" x="116" y="381" width="183" height="35"/>
+                                <rect key="frame" x="109" y="390" width="194" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" systemColor="systemTealColor"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="New York"/>
+                                <buttonConfiguration key="configuration" style="filled" title="New York" cornerStyle="capsule">
+                                    <fontDescription key="titleFontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="20"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="vyo-ZL-Gqb" kind="show" id="Dns-2y-kJU"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7mP-yS-aP3">
-                                <rect key="frame" x="116" y="474" width="183" height="35"/>
+                                <rect key="frame" x="111" y="469" width="194" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.40818789729999999" green="0.33121039670000002" blue="0.90820721500000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Dubai"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Dubai" cornerStyle="capsule">
+                                    <fontDescription key="titleFontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="20"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="WKl-pY-OGW" kind="show" id="dLh-On-PQH"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xgO-m9-t3G">
-                                <rect key="frame" x="116" y="566" width="183" height="35"/>
+                                <rect key="frame" x="114" y="558" width="191" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Paris"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Paris" cornerStyle="capsule">
+                                    <fontDescription key="titleFontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="20"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="o17-e5-8Uw" kind="show" id="oct-OC-YjW"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Home" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qvt-tI-c8r">
+                                <rect key="frame" x="159" y="218" width="90" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HiraMinProN-W6" family="Hiragino Mincho ProN" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VM5-nG-eKU">
-                                <rect key="frame" x="116" y="654" width="183" height="35"/>
+                                <rect key="frame" x="111" y="649" width="195" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.83122497240000004" green="0.21479343040000001" blue="0.71650212639999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="London"/>
+                                <buttonConfiguration key="configuration" style="filled" title="London" cornerStyle="capsule">
+                                    <fontDescription key="titleFontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="20"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="2q4-3o-HJI" kind="show" id="aQO-aT-i8g"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Home" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qvt-tI-c8r">
-                                <rect key="frame" x="168" y="216" width="78" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="30"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.72176188230000005" green="0.87821340560000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
